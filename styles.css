@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e31c58;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.heart-gif {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: #e74c3c;
+}
+
+.message {
+    font-style: italic;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#yesButton {
+    background-color: #2ecc71; /* Green */
+    color: #fff;
+}
+
+#maybeButton {
+    background-color: #e74c3c; /* Red */
+    color: #fff;
+}
+
+#maybeButton:hover {
+    background-color: #c0392b; /* Darker Red on Hover */
+}
+
+button:hover {
+    transform: scale(1.1);
+}
